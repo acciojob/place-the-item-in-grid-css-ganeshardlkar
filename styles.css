@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: grid;
+
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+
+    grid-gap: 10px;
+}
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: green;
+}
+
+.box3 {
+    background-color: purple;
+}
+
+.box4 {
+    background-color: blue;
+}
